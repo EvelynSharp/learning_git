@@ -9,3 +9,12 @@ if (age > 19) {
 } else {
   console.log("Teen");
 }
+
+var carButton = document.getElementById('get-car');
+carButton.addEventListener('click',function(){
+  // find the input off the page
+  var carInput = document.getElementById('car');
+  //console log the input value
+
+  console.log(carInput.value);
+})
